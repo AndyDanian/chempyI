@@ -28,5 +28,5 @@ pip install ipykernel
 or execute
 
 ```
-pip install requeriment.txt
+pip install -r requeriment.txt
 ```
