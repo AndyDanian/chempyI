@@ -1,0 +1,5 @@
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
+numpy >= 1.26.3
+pandas >= 2.1.4
+jupyter >= 1.0.0
+ipykernel >= 6.29.0
