@@ -30,3 +30,6 @@ or execute
 ```
 pip install -r requeriment.txt
 ```
+
+## Jupyter
+If you want to open jupyter notebooks in github, you must change github.com by github.dev instead the other in the direction is keep without changes
