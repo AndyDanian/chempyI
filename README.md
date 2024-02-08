@@ -8,10 +8,11 @@ Moreover, this reporsitory involves codes and resources about the Chemistry-Pyth
 The Chemistry-Python Course I is composed by four modules and each one involves different topics. 
 
 * Module 1
-	* Definition: Python and dates types  
-	* Definition: for and if cycles in Python
+	* Definition: Python, dates types and binary operations
+	* Definition: for, while and if cycles in Python
 	* Definition: import modules, input and output information, and open files
 	* Program: the atomic mass porcentage from molecule formule
+	* Program: calculate quantities of ideal gases from its equation
 
 * Module 2
 
