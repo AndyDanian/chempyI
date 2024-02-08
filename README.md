@@ -10,7 +10,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 * Module 1
 	* Definition: Python and dates types  
 	* Definition: for and if cycles in Python
-        * Definition: import modules, input and output information, and open files
+	* Definition: import modules, input and output information, and open files
 	* Program: the atomic mass porcentage from molecule formule
 
 * Module 2
