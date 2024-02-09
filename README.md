@@ -7,6 +7,7 @@ Moreover, this reporsitory involves codes and resources about the Chemistry-Pyth
 
 The Chemistry-Python Course I is composed by four modules and each one involves different topics. 
 
+* Module 0 "Work Environment" 
 * Module 1
 	* Definition: Python, dates types and binary operations
 	* Definition: for, while and if cycles in Python
