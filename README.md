@@ -11,8 +11,10 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Definition: Python, dates types and binary operations
 	* Definition: for, while and if cycles in Python
 	* Definition: import modules, input and output information, and open files
+	* Program: made structured data from csv file
 	* Program: the atomic mass porcentage from molecule formule
 	* Program: calculate quantities of ideal gases from its equation
+	* Program: number of electrons transferred in a redox reaction
 
 * Module 2
 
