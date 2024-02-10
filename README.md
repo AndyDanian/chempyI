@@ -9,14 +9,15 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 
 * Module 0
 	* Work Environment: Install Python and VsCode
-	* Work Environment: VsCode configurations
+	* Work Environment: VsCode configurations and virtual environment
 * Module 1
-	* Definition: Python, dates types and binary operations
-	* Definition: for and while loops. if-elif-else conditional
-	* Definition: import modules, input and output information, and open files
+	* Definition: Python, data types and binary operations
+	* Definition: for and while loops. if-elif-else conditional. Conditional and boolean operators. 
+	* Definition: input and output. import. open, read and write files.
 	* Program: made structured data from csv file
 	* Program: the atomic mass porcentage from molecule formule
 	* Program: calculate quantities of ideal gases from its equation
+	* Program: pH titulation
 	* Program: number of electrons transferred in a redox reaction
 
 * Module 2
