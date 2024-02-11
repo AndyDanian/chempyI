@@ -1,11 +1,11 @@
-from atomic_number_mass import atomic_number_mass as Zm
-
 """
 This program ask user a chemistry formule, to split the 
 atomic symbol and number in next step. Then, it joins 
 the atomic symbols that is repated and finally, sums the 
 mass and shows the porcentages.
 """
+from atomic_number_mass import atomic_number_mass as Zm
+
 
 def split_symbols_amount(mol_formule: str):
     """
@@ -16,23 +16,23 @@ def split_symbols_amount(mol_formule: str):
     atomic_symbols: list[str] = []
     atoms_amount_tmp: list[str] = []
     for abc in mol_formule:
-        if abc.isupper(): # is the string capitalize
+        if abc.isupper():  # is the string capitalize
             atoms_amount_tmp.append('')
             atomic_symbols.append(abc)
-        if abc.islower(): # is not the string capitalize
+        if abc.islower():  # is not the string capitalize
             atomic_symbols[-1] += abc
-        if abc.isnumeric(): # is the string a number
+        if abc.isnumeric():  # is the string a number
             atoms_amount_tmp[-1] += abc
     # convert string to int and transform '' to 1
     atoms_amount: list[int] = [int(i) if i != '' else 1 for i in atoms_amount_tmp]
     # build a dictionary where the keys is the atomic symbols while the value is equal 0  
-    composition: dict[str:int] = {symbol:0 for symbol in atomic_symbols}
+    composition: dict[str: int] = {symbol: 0 for symbol in atomic_symbols}
     # remplace 0 by the amount of atoms in the molecular formule 
     for symbol, amount in zip(atomic_symbols, atoms_amount):
         composition[symbol] += amount
     return composition
 
-def molecular_mass(composition: dict[str:int]):
+def molecular_mass(composition: dict[str: int]):
     # molecular mass
     molecular_mass: float = 0.
     for symbol, amount in composition.items():
@@ -40,7 +40,7 @@ def molecular_mass(composition: dict[str:int]):
     return molecular_mass
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     # input the molecular formule by user
     mol_formule: str = input("Write the Molecular Formule of Whatever Substance: ")
     # split information in the molecular formule
