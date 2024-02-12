@@ -19,7 +19,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: calculate quantities of ideal gases from its equation
 	* Program: pH titulation
 	* Program: Oxidized and reduced substance in redox reaction
-	* Program: Signs number and their intesities relation
+	* Program: Signs number and their intesities relation in a spin-spin coupling spectrum
 
 * Module 2
 	* Program: Balancing a chemical equantion (NumPy)
