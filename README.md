@@ -21,7 +21,8 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Oxidized and reduced substance in redox reaction
 	* Program: Signs number and their intesities relation
 
-* Module 2 
+* Module 2
+	* Program: Balancing a chemical equantion (NumPy)
 	Se abordara la solución de problemas usando modulos especializados como Numpy, Scipy, ...
 
 * Module 3
