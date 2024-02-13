@@ -22,8 +22,12 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Signs number and their intesities relation in a spin-spin coupling spectrum
 
 * Module 2
-	* Program: Balancing a chemical equantion (NumPy)
-	* Program: Balancing a Redox reaction (NumPy)
+	* Definition: NumPy
+	* Program: Balancing a chemical equantion 
+	* Program: Balancing a Redox reaction 
+	* Program: Equilibrium constant of a reaction 
+	* Program: Evolution of the concentrations in the time 
+	* Definition: SciPy
 
 	Se abordara la solución de problemas usando modulos especializados como Numpy, Scipy, ...
 
