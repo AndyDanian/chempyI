@@ -24,6 +24,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 * Module 2
 	* Program: Balancing a chemical equantion (NumPy)
 	* Program: Balancing a Redox reaction (NumPy)
+
 	Se abordara la solución de problemas usando modulos especializados como Numpy, Scipy, ...
 
 * Module 3
