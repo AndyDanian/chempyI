@@ -31,14 +31,18 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Definition: SciPy
 	* Program: Scientific constants and rule of three
 	* Program: Number of Hs associated a HNMR sign
-
+	* Definition: Sympy
 	Se abordara la solución de problemas usando modulos especializados como Numpy, Scipy, ...
 
 * Module 3
-	Se expondra conceptos y se reformula los programs usando POO
-
+	* Definition: RDKit
+	* Definition: ChemFormula
+	* Definition: Chemlib
+	* Definition: ChemPy
+	* Definition: Mendeleev
+	* Definition: pyEQL
 * Module 4
-
+	Se expondra conceptos y se reformula los programs usando POO
 
 # Requeirment 
 The first step is to build virtual environment
