@@ -29,6 +29,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Equilibrium constant of a reaction 
 	* Program: Evolution of the concentrations in the time 
 	* Definition: SciPy
+	* Program: Scientific constants and rule of three
 
 	Se abordara la solución de problemas usando modulos especializados como Numpy, Scipy, ...
 
