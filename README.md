@@ -30,6 +30,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Evolution of the concentrations in the time 
 	* Definition: SciPy
 	* Program: Scientific constants and rule of three
+	* Program: Number of Hs associated a HNMR sign
 
 	Se abordara la solución de problemas usando modulos especializados como Numpy, Scipy, ...
 
