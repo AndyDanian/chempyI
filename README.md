@@ -32,6 +32,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Scientific constants and rule of three
 	* Program: Number of Hs associated a HNMR sign
 	* Program: Pressure vapor minimum
+	* Program: Physcis' or chemical's property statistical
 	* Definition: Sympy
 	* Definition: Matplotlib
 
