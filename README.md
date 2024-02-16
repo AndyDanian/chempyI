@@ -34,7 +34,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Pressure vapor minimum
 	* Program: Physcial's or chemical's property statistical
 	* Definition: Sympy
-	* Program: Rate of a substance (reactive or product)
+	* Program: Reactive or product formation rate
 	* Definition: Matplotlib
 
 * Module 3
