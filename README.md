@@ -36,6 +36,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Physcial's or chemical's property statistical
 	* Definition: Sympy
 	* Program: Formation or descomposition rate
+	* Program: Concentrations from simultaneous chemical reactions
 	* Definition: Matplotlib
 
 * Module 3
