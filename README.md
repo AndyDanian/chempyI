@@ -24,7 +24,7 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Program: Signs number and their intesities relation in a spin-spin coupling spectrum
 
 * Module 2
-	* Definition: Matplotlib
+	* Definition: [Matplotlib][https://github.com/AndyDanian/chempyI/blob/developing/presentations/m2/c1_matplotlib_presentation.slides.html#/]
 	* Definition: NumPy
 	* Program: Balancing a chemical equantion 
 	* Program: Balancing a Redox reaction 
