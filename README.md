@@ -78,10 +78,13 @@ deactivate
 For the correct work, it is necessary to install the next packing:
 
 ```
+pip install scipy
+pip install sympy
 pip install numpy
 pip install pandas
 pip install jupyter
 pip install ipykernel
+pip install rise
 ```
 or execute
 
