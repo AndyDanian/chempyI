@@ -12,9 +12,19 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* Work Environment: VsCode configurations and virtual environment
 	* Jupyter and Markdown
 
-* Module 1
-	* Definition: Python, data types and binary operations
-	* Definition: for and while loops. if-elif-else conditional. Conditional and boolean operators. 
+* Module 1:
+	* SubModule 1: Data Type and Operators
+		* Python presentation
+		* Data types and properties
+		* Binary operators over simple data
+		* Binary operators over structure data
+		* Comparative operators
+		* Logic operators
+		* Belong and identity operators
+	* SubModule 2: 
+		* for loop
+		* while loop
+		* if-elif-else conditional. 
 	* Definition: input and output. import. open, read and write files.
 	* Program: made structured data from csv file
 	* Program: the atomic mass porcentage from molecule formule
