@@ -24,7 +24,8 @@ The Chemistry-Python Course I is composed by four modules and each one involves 
 	* SubModule 2: 
 		* for loop
 		* while loop
-		* if-elif-else conditional. 
+		* if-elif-else conditional
+		* functions and arguments 
 	* Definition: input and output. import. open, read and write files.
 	* Program: made structured data from csv file
 	* Program: the atomic mass porcentage from molecule formule
