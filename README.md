@@ -1,4 +1,8 @@
-# ChemPyI: Chemistry-Python Course
+# The Power of Python for Chemistry: From the Lab and Spreadsheets to AI and Quantum Computing
+
+Unlock a universe of possibilities in scientific computing, AI, and quantum computing. Enroll now and let Python be your catalyst for success in the exciting world of science, industry and beyond.
+
+Embark on a transformative journey into Python programming tailored for chemists, biochemists and scientific enthusiasts. This course equips you with the tools to harness Python's power in solving real-world problems and advancing your research.
 
 Programming is everywhere nowadays, and programmers and in high demand. AI was the topic of 2023 and will be on the top for many years. Quantum Computing will be the next wave.
 
@@ -7,13 +11,7 @@ You could be surfing the next wave of ultra-high salaries and solving problems f
 > **Who will be the best candidate to make and design applications for AI and Quantum Computing?**
 > Yes, you, who learn how to write code, design applications and solve new problems by applying the knowledge of chemistry and physics in the real world.
 
-Embark on a transformative journey into Python programming tailored for chemists, biochemists and scientific enthusiasts. This course equips you with the tools to harness Python's power in solving real-world problems and advancing your research.
-
-Master Python fundamentals, scientific libraries, data science, and algorithms. Explore chemical informatics, computational chemistry, bioinformatics, and software development best practices.
-
-Delve into artificial intelligence, machine learning, and their groundbreaking applications in chemistry and physics. Culminate your journey with quantum computing, mastering quantum mechanics, algorithms, and their implementation using Python.
-
-Unlock a universe of possibilities in scientific computing, AI, and quantum computing. Enroll now and let Python be your catalyst for success in the exciting world of science, industry and beyond.
+Master Python fundamentals, scientific libraries, data science, and algorithms. Delve into artificial intelligence, machine learning, and their groundbreaking applications in chemistry and physics. Culminate your journey with quantum computing, mastering quantum mechanics, algorithms, and their implementation using Python.
 
 ## Roadmap
 
@@ -170,63 +168,37 @@ Unlock a universe of possibilities in scientific computing, AI, and quantum comp
      - Program 4.1: Formation or decomposition rate
      - Program 4.2: Concentrations from simultaneous chemical reactions
 
-- Module 3
+4. **Module 3** - Molecular Modeling and Visualization
 
-  - Definition: Py3DMol
-  - Definition: NGL
-  - Definition: PyMol
+   - `Py3DMol` and `NGLview` in Jupyter Notebook
+   - `PyMol` for Molecular Visualization
 
-- Module 4
+5. **Module 4** - Chemical Informatics and Computational Chemistry
 
-  - Definition: RDKit
-  - Definition: ChemFormula
-  - Definition: Chemlib
-  - Definition: ChemPy
-  - Definition: Mendeleev
-  - Definition: pyEQL
+   - `RDKit` for Cheminformatics
+   - `ChemFormula` for Chemical Formulas
+   - `Chemlib` for Chemical Libraries
+   - `ChemPy` for Chemical Properties
+   - `Mendeleev` for Periodic Table
+   - `pyEQL` for Chemical Equilibrium
 
-- Module 5
+6. **Module 5** - Bioinformatics and Computational Biology
 
-  - BioPython
-  - BioPandas
+   - `BioPython` for Bioinformatics
+   - `BioPandas` for Biological Data
 
-- Module 6
-  Se expondra conceptos y se reformula los programs usando POO
+## Requirements
 
-# Requeirment
+Prior programming experience is not strictly required, as the course will start with the fundamentals of Python programming.
 
-The first step is to build virtual environment
+> It's important to note that while these prerequisites provide a solid foundation, the course is designed to be accessible to a wide range of learners with varying backgrounds. If you're passionate about chemistry, programming, or both, you're in the right place!
 
-```
-python3 -m venv /path/virtual_environment_name
-```
+1. **Motivation and dedication to learn:** Learning Python programming and its applications in chemistry requires a strong commitment and consistent effort. Students should be motivated to invest time in practicing coding, exploring new concepts, and working on projects to reinforce their understanding.
 
-to activate the virtual environment
+2. **Access to a computer with Internet:** To follow along with the course materials, complete assignments, and run Python code, students will need access to a computer with a stable Internet connection. The course will provide instructions on setting up the necessary software and tools.
 
-```
-source /path/virtual_environment_name/bin/activate
-```
+3. **Basic understanding of chemistry concepts:** As this course is tailored for chemists and scientific enthusiasts, a foundational knowledge of chemistry principles and terminology is essential to grasp the course content and its applications.
 
-to exit the virtual environment, execute the next command in the prompt
+4. **Familiarity with computer basics:** Students should be comfortable using a computer, navigating the operating system, and performing basic tasks such as creating folders, managing files, and installing software.
 
-```
-deactivate
-```
-
-For the correct work, it is necessary to install the next packing:
-
-```
-pip install scipy
-pip install sympy
-pip install numpy
-pip install pandas
-pip install jupyter
-pip install ipykernel
-pip install rise
-```
-
-or execute
-
-```
-pip install -r requeriment.txt
-```
+5. **High school level mathematics:** A solid understanding of high school level mathematics, including algebra, trigonometry, and basic calculus, is necessary to comprehend the mathematical aspects of the course, such as data analysis and algorithm implementation.
