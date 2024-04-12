@@ -23,7 +23,7 @@ Master Python fundamentals, scientific libraries, data science, and algorithms. 
    4. Control structures (if-else, loops)
    5. Functions and modules
 
-2. Scientific Python for Chemists
+2. Scientific Python
 
    1. Jupyter Notebook for Interactive Computing
    2. Matplotlib for Data Visualization
@@ -69,11 +69,14 @@ Master Python fundamentals, scientific libraries, data science, and algorithms. 
 
 8. Advanced Topics
 
-   1. CI/CD with GitHub Actions
-   2. Web Documentation with Sphinx
-   3. Building a Python package
-   4. Packaging and distribution with PyPI
-   5. Object-Oriented Programming in a nutshell
+   1. Regular-expressions and list-comprehensions
+   2. Lambdas, map, filter, and reduce
+   3. Decorators, context managers, iterators, and generators
+   4. Object-Oriented Programming in a nutshell
+   5. Building a Python package
+   6. Packaging and distribution with PyPI
+   7. CI/CD with GitHub Actions
+   8. Web Documentation with Sphinx
 
 9. Introduction to Artificial Intelligence and Machine Learning
 
