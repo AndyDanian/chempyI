@@ -1,23 +1,33 @@
 """
 Module 1 - Problem 4: acid-base titulation
 
-Calculate the volumen or normality of an acid or a base to reach the indicated pH.
+Calculate for acid or base to reach the indicated pH:
+    - volumen
+    - normality
+
 Moreover, it's possible calculated the pH.
 
-    * Select the pH or what substance type to calculate its volumen or normality
-    * Enter known quantities (normality, volumen, pH)
-    * Calculate unknown volumen
+Methodology:
+    - Select the pH or what substance type to calculate
+      its volumen or normality
+    - Enter known quantities (normality, volumen, pH)
+    - Calculate unknown volumen
 
-Notes:
-    * When the substance under titulation is an acid with a base the pH increment
-    * When the substance under titulation is a base with an acid the pH decrease
+NOTE:
+    - When the substance under titulation is an acid with
+      a base the pH increment
+    - When the substance under titulation is a base with
+      an acid the pH decrease
 """
+
 from math import log10 as log
 
 
 # Select calculate type
 def calculation_type() -> int:
-
+    """
+    Drive the select incognit
+    """
     incognit: int = int(
         input(
             """What do you want calculate [integer]?\n
@@ -45,19 +55,27 @@ def calculation_type() -> int:
     return incognit
 
 
-# While conditional for acid-base titulation
-def verifiation(pH_titulation: float, pH: float, incognit: int) -> bool:
+def verification(pH_titulation: float, pH: float, incognit: int) -> bool:
+    """
+    Verification of titulation process
+    """
+
     if incognit == 1:
         # Acid titulation
-        return pH_titulation > pH
-    if incognit == 2:
+        titulation: bool = pH_titulation > pH
+    else:
         # Base titulation
-        return pH_titulation < pH
+        titulation = pH_titulation < pH
+
+    return titulation
 
 
-# Known quantities
-def input_parameters(incognit: int) -> float:
-
+def input_parameters(
+    incognit: int,
+) -> tuple[float, float, float, float, float, float]:
+    """
+    Drive the input information
+    """
     av: float = 0.0
     bv: float = 0.0
     an: float = 0.0
@@ -81,18 +99,27 @@ def input_parameters(incognit: int) -> float:
         pH = float(input("what is the desired pH?"))
         print(f"pH Desired: {pH}")
     if incognit in [1, 2]:
-        size_volumen = float(input("what is the volumen size in each titulation step?"))
+        size_volumen = float(
+            input(
+                "what is the volumen size in each \
+                                   titulation step?"
+            )
+        )
         print(f"Titulation Step: {size_volumen}")
+
     return av, bv, an, bn, pH, size_volumen
 
 
 def calculation(incognit: int) -> None:
+    """
+    Drive the titulation calculation
+    """
 
     av, bv, an, bn, pH, size_volumen = input_parameters(incognit)
     v_titulation: float = 0.0
 
     if incognit in [1, 2]:
-        # Titulation
+        # * Titulation process selected
         substance_a: str = "acid"
         substance_b: str = "base"
         norm_sub_a: float = an
@@ -106,16 +133,16 @@ def calculation(incognit: int) -> None:
             vol_sub_a = bv
 
         pH_titulation: float = 0.0
-        while verifiation(pH_titulation, pH, incognit):
-            # acid normality in excess
+        while verification(pH_titulation, pH, incognit):
             n_temp: float = norm_sub_a - norm_sub_b * v_titulation / vol_sub_a
             if n_temp > 0.0:
+                # * acid normality in excess
                 pH_titulation = -log(n_temp)
             elif round(n_temp, 2) == 0.0:
-                # neutralization of pH: [H+] = [OH-]
+                # * neutralization of pH: [H+] = [OH-]
                 pH_titulation = 7.0
             else:
-                # base normality excess
+                # * base normality excess
                 n_temp = norm_sub_b * v_titulation / (vol_sub_a + v_titulation)
                 pH_titulation = 14 + log(n_temp)
             print(
@@ -124,20 +151,26 @@ def calculation(incognit: int) -> None:
                     pH titulation: {round(pH_titulation,2)}"
             )
             v_titulation += size_volumen
+
     elif incognit == 3:
+        # * Acid normality calcuation selected
         acid_normality: float = bn * bv / av
         print(f"Acid Normality: {acid_normality}")
     elif incognit == 4:
+        # * Base normality calcuation selected
         base_normality: float = bn * bv / av
         print(f"Base Normality: {base_normality}")
     else:
+        # * pH calcuation selected
         solution_normality: float = (an * av) - (bn * bv)
         if solution_normality < 0.0:
             print(
-                f"Solution has excess of [OH-] and its pH: {14 + log(bn * bv/(av + bv))}"
+                f"Solution has excess of [OH-] and its pH: \
+                {14 + log(bn * bv/(av + bv))}"
             )
         else:
-            print(f"Solution has excess of [H+] and its pH: {-log(an * av/(av + bv))}")
+            print(f"Solution has excess of [H+] and its pH: \
+                {-log(an * av/(av + bv))}")
 
 
 if __name__ == "__main__":
