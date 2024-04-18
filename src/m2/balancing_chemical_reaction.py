@@ -18,6 +18,14 @@ path.append("../m1")
 from atomic_mass_percentage import split_symbols_amount, molecular_mass
 
 
+def molecule_composition(molecule: list) -> [str, int]:
+    """
+    Yet one generator (iterator) with the molecular labels
+    """
+    for m in molecule:
+        yield split_symbols_amount(m)
+
+
 def input_molecules() -> tuple[list[str], list[dict[str, int]], int, int]:
     """
     Drive the input information and molecular labels
@@ -31,29 +39,21 @@ def input_molecules() -> tuple[list[str], list[dict[str, int]], int, int]:
     num_prod: int = int(input("how many products are there? "))
 
     print("\nReactive:")
-    list_react_prod: list[str] = []
+    molecules: list[str] = []
     for r in range(num_react):
-        list_react_prod.append(input(f"{r+1}: "))
+        molecules.append(input(f"{r+1}: "))
 
     print("\nProduct:")
     for p in range(num_prod):
-        list_react_prod.append(input(f"{p+1}: "))
+        molecules.append(input(f"{p+1}: "))
     print()
 
     # split atomic information
     comp_react_prod: list[dict[str, int]] = [
-        comp for comp in molecule_composition(list_react_prod)
+        comp for comp in molecule_composition(molecules)
     ]
 
-    return list_react_prod, comp_react_prod, num_react, num_prod
-
-
-def molecule_composition(molecule: list) -> [str, int]:
-    """
-    Yet one generator (iterator) with the molecular labels
-    """
-    for m in molecule:
-        yield split_symbols_amount(m)
+    return molecules, comp_react_prod, num_react, num_prod
 
 
 def heaviest(molecules: list[dict[str, int]]) -> int:
