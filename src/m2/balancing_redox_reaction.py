@@ -341,7 +341,7 @@ def redox_balance(mat_comp_mol: np.array, coef_result: np.array) -> np.array:
 
 
 if __name__ == "__main__":
-    # aFe⁺² + bCr2O7⁺² + cH⁺¹ --> dCr⁺³ + eH2O + fFe⁺³
+    # aFe⁺² + bCr2O7-² + cH⁺¹ --> dCr⁺³ + eH2O + fFe⁺³
     # * Input molecules
     molecules, charges, comp_react_prod, num_react, num_prod = input_molecules()
 
