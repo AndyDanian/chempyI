@@ -6,10 +6,14 @@
 Welcome to ChemPy Course's documentation!
 =========================================
 
+In this a course you can learn about different aplications and soluctions with Python for Chemists. In addition, you can develop your own portfolio on GitHub with what you have learned. Another important idea of this course is introduce you in the quantum computation world.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :titlesonly:
 
+   Introduction <introduction>
 
 
 Indices and tables
