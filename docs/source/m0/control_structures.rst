@@ -7,7 +7,7 @@ Python allow three control structures: sequential, selection and repetition.
 Sequential
 ^^^^^^^^^^
 
-In this structure the Python code is ejecuted line by line wihtout skip or repeat one.
+In this control structure of the Python, the code is ejecuted line by line wihtout skip or repeat one.
 
 .. code-block:: python
    :caption: Squential control structure.
