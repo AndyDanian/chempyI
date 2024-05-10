@@ -3,9 +3,6 @@ Arithmetic Operators
 
 There are two operators types. One operators type involve one element, number or string, instead the other operators type involve two elements. The first ones are named unary operators, instead the others are the binary operators.
 
-The symbol *=* is also an operator in Python and named the assignation operator.
-
-
 Unary Operators
 ^^^^^^^^^^^^^^^
 
@@ -85,9 +82,9 @@ The listes, tuples and strings chains can be in binary operations. However, thes
    two_tuples = (2, 3) * 2                  # = (2, 3, 2, 3)
    two_list   =  [2, 3] * 2                 # = [2, 3, 2, 3]
 
-Moreover, the binary operations satisfy the following ejecution order:
+The comparison and arithmetic operations satisfy the following ejecution order:
 
-.. table:: Ejecution order of binary operators. 
+.. table:: Ejecution order of comparison and arithmetic operators. 
    :align: center
 
    +-------------+-------------+---------+
@@ -100,4 +97,8 @@ Moreover, the binary operations satisfy the following ejecution order:
    |     3       |`*`, /, //, %|  Binary | 
    +-------------+-------------+---------+
    |     4       |  +, -       |  Binary | 
+   +-------------+-------------+---------+
+   |     5       | <, <=, >, >=|  Binary | 
+   +-------------+-------------+---------+
+   |     6       |  ==, !=     |  Binary | 
    +-------------+-------------+---------+

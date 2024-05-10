@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Operators &mdash; chempyI 0.1 documentation</title>
+  <title>Arithmetic Operators &mdash; chempyI 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
 
@@ -22,7 +22,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Control Structures" href="control_structures.html" />
-    <link rel="prev" title="Data Types" href="data_type.html" /> 
+    <link rel="prev" title="Comparison Operators" href="comparison_operators.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -49,7 +49,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Introduction</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="variables.html">Variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_type.html">Data Types</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparison_operators.html">Comparison Operators</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Arithmetic Operators</a></li>
 <li class="toctree-l2"><a class="reference internal" href="control_structures.html">Control Structures</a></li>
 </ul>
 </li>
@@ -70,7 +71,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../introduction.html">Introducción al Curso de Python para Química</a></li>
-      <li class="breadcrumb-item active">Operators</li>
+      <li class="breadcrumb-item active">Arithmetic Operators</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/m0/operators.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -80,10 +81,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="operators">
-<h1>Operators<a class="headerlink" href="#operators" title="Link to this heading"></a></h1>
+  <section id="arithmetic-operators">
+<h1>Arithmetic Operators<a class="headerlink" href="#arithmetic-operators" title="Link to this heading"></a></h1>
 <p>There are two operators types. One operators type involve one element, number or string, instead the other operators type involve two elements. The first ones are named unary operators, instead the others are the binary operators.</p>
-<p>The symbol <em>=</em> is also an operator in Python and named the assignation operator.</p>
 <section id="unary-operators">
 <h2>Unary Operators<a class="headerlink" href="#unary-operators" title="Link to this heading"></a></h2>
 <p>There are two unary operators in Python. These are represent by the symbol + and -, which are the symbols associated to the sum and rest operators. The unary operator <em>+</em> is generally implicit.</p>
@@ -161,9 +161,9 @@
 </pre></div>
 </div>
 </div>
-<p>Moreover, the binary operations satisfy the following ejecution order:</p>
+<p>The comparison and arithmetic operations satisfy the following ejecution order:</p>
 <table class="docutils align-center" id="id5">
-<caption><span class="caption-text">Ejecution order of binary operators.</span><a class="headerlink" href="#id5" title="Link to this table"></a></caption>
+<caption><span class="caption-text">Ejecution order of comparison and arithmetic operators.</span><a class="headerlink" href="#id5" title="Link to this table"></a></caption>
 <tbody>
 <tr class="row-odd"><td><p>Priority</p></td>
 <td><p>Operator</p></td>
@@ -185,6 +185,14 @@
 <td><p>+, -</p></td>
 <td><p>Binary</p></td>
 </tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>&lt;, &lt;=, &gt;, &gt;=</p></td>
+<td><p>Binary</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>==, !=</p></td>
+<td><p>Binary</p></td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -194,7 +202,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="data_type.html" class="btn btn-neutral float-left" title="Data Types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="comparison_operators.html" class="btn btn-neutral float-left" title="Comparison Operators" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="control_structures.html" class="btn btn-neutral float-right" title="Control Structures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
