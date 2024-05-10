@@ -98,12 +98,39 @@
 <div class="code-block-caption"><span class="caption-text">Comparison operators.</span><a class="headerlink" href="#id1" title="Link to this code"></a></div>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">a</span> <span class="o">==</span> <span class="n">b</span>   <span class="c1"># = False</span>
-<span class="n">a</span> <span class="o">!=</span> <span class="n">b</span>   <span class="c1"># = True</span>
-<span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span>    <span class="c1"># = True</span>
-<span class="n">a</span> <span class="o">&gt;=</span> <span class="n">b</span>   <span class="c1"># = True</span>
-<span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span>    <span class="c1"># = False</span>
-<span class="n">a</span> <span class="o">&lt;=</span> <span class="n">b</span>   <span class="c1"># = False</span>
+<span class="n">a</span> <span class="o">==</span> <span class="n">b</span>   <span class="c1"># False</span>
+<span class="n">a</span> <span class="o">!=</span> <span class="n">b</span>   <span class="c1"># True</span>
+<span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span>    <span class="c1"># True</span>
+<span class="n">a</span> <span class="o">&gt;=</span> <span class="n">b</span>   <span class="c1"># True</span>
+<span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span>    <span class="c1"># False</span>
+<span class="n">a</span> <span class="o">&lt;=</span> <span class="n">b</span>   <span class="c1"># False</span>
+</pre></div>
+</div>
+</div>
+<p>The comparison operator can be applied over listes, tuples and strings.</p>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">Comparison operators over listes and tuples.</span><a class="headerlink" href="#id2" title="Link to this code"></a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># first example</span>
+<span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span> <span class="o">&gt;</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>   <span class="c1"># True</span>
+<span class="c1"># second example</span>
+<span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>  <span class="c1"># False</span>
+<span class="c1"># third example</span>
+<span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>  <span class="c1"># False</span>
+<span class="c1"># fourth example</span>
+<span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span> <span class="o">!=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>  <span class="c1"># True</span>
+</pre></div>
+</div>
+</div>
+<p>In the first example, the return value is the result of the comparison between 3 with 2 (3 &gt; 2), because the comparison is carried out element by element. In the case of the second example, the result is False because 2 is lower than 5. In the next examples the results are False and True because the tuples are different and lister are equal, respectively.</p>
+<p>In the case of the strings, the comparison operator uses the <a class="reference external" href="https://docs.python.org/3/howto/unicode.html">Unicode</a> value of the strings.</p>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">Comparison operators over string.</span><a class="headerlink" href="#id3" title="Link to this code"></a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># first example</span>
+<span class="s1">&#39;a&#39;</span> <span class="o">==</span> <span class="s1">&#39;a&#39;</span>      <span class="c1"># True</span>
+<span class="c1"># second example</span>
+<span class="s1">&#39;a&#39;</span> <span class="o">==</span> <span class="s1">&#39;A&#39;</span>      <span class="c1"># False</span>
+<span class="s1">&#39;a&#39;</span> <span class="o">&gt;</span>  <span class="s1">&#39;A&#39;</span>      <span class="c1"># True</span>
+<span class="s1">&#39;a&#39;</span> <span class="o">&lt;</span>  <span class="s1">&#39;b&#39;</span>      <span class="c1"># True</span>
 </pre></div>
 </div>
 </div>
