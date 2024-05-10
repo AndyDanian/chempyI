@@ -11,3 +11,4 @@ Por último, se realizara una presentación de algunos conceptos básicos relaci
     :maxdepth: 4
 
     m0/variables
+    m0/data_type
