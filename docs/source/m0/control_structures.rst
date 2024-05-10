@@ -68,4 +68,4 @@ Moreover, this control structures allow the nested.
 Repetition
 ^^^^^^^^^^
 
-There are two types of repetition control structures in Python. One run over array of elements, *foor loop*, while the another one finish when a specific condition is reached, *while loop*.
+There are two types of repetition control structures in Python. One run over array of elements, **foor loop**, while the another one finish when a specific condition is reached, **while loop**.

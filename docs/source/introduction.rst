@@ -13,4 +13,5 @@ Por último, se realizara una presentación de algunos conceptos básicos relaci
     m0/variables
     m0/data_type
     m0/operators
+    m0/comparison_operators
     m0/control_structures

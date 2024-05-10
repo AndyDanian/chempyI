@@ -1,5 +1,5 @@
-Operators
----------
+Arithmetic Operators
+--------------------
 
 There are two operators types. One operators type involve one element, number or string, instead the other operators type involve two elements. The first ones are named unary operators, instead the others are the binary operators.
 
