@@ -1,16 +1,18 @@
 Variables
 ---------
 
-Las variables en Python son como cajas informáticas, las cuales permiten que se les asignen un nombre, además que pueden almacenar dentro de ellas diferentes tipos de datos. Un ejemplo de variable en python, sería el siguiente:
+The variables in Python according `PEP 8 <https://peps.python.org/pep-0008/>`_ should comply with the following:
+
+* Variables with more one words should write like snake_case
+* Start with one letter or low dash
+* Python's keywords are prohibited
+* Names descriptives
+* Lower letter
+* Constants variables should be capital letter 
 
 .. code-block:: python
-   :caption: Variables en Python.
+   :caption: Python's variables.
 
-   a = 2
-   bc = 3.4
-   house = 'tres'
-   Red_Car = True
-   Car9 = False
-
-
-
+   hello_world = 1
+   PI = 3.14
+   red_car = True
