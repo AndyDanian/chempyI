@@ -81,6 +81,72 @@
              
   <section id="control-structures">
 <h1>Control Structures<a class="headerlink" href="#control-structures" title="Link to this heading"></a></h1>
+<p>Python allow three control structures: sequential, selection and repetition.</p>
+<section id="sequential">
+<h2>Sequential<a class="headerlink" href="#sequential" title="Link to this heading"></a></h2>
+<p>In this structure the Python code is ejecuted line by line wihtout skip or repeat one.</p>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Squential control structure.</span><a class="headerlink" href="#id1" title="Link to this code"></a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">hello</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span>
+<span class="n">world</span> <span class="o">=</span> <span class="s1">&#39;world!&#39;</span>
+<span class="n">hello_world</span> <span class="o">=</span> <span class="n">hello</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">world</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="selection">
+<h2>Selection<a class="headerlink" href="#selection" title="Link to this heading"></a></h2>
+<p>Sometimes is necessary skip some lines or select one line over others by any special reason. This is possibly with the Python’s keywords <strong>if, elif and else</strong> because these keywords allow selected between two operations.</p>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">if and else control structure.</span><a class="headerlink" href="#id2" title="Link to this code"></a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span> <span class="c1"># first example</span>
+ <span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span>
+     <span class="n">a</span> <span class="o">+=</span> <span class="mi">2</span>
+ <span class="c1"># second example</span>
+ <span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span>
+     <span class="n">a</span> <span class="o">+=</span> <span class="mi">2</span>
+ <span class="k">else</span><span class="p">:</span>
+     <span class="n">b</span> <span class="o">*=</span> <span class="mi">3</span>
+ <span class="c1"># third example</span>
+ <span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span>
+     <span class="n">a</span> <span class="o">+=</span> <span class="mi">2</span>
+ <span class="k">elif</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="n">c</span><span class="p">:</span>
+     <span class="n">b</span> <span class="o">*=</span> <span class="mi">3</span>
+ <span class="c1"># fourth example</span>
+ <span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span>
+     <span class="n">a</span> <span class="o">+=</span> <span class="mi">2</span>
+ <span class="k">elif</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="n">c</span><span class="p">:</span>
+     <span class="n">b</span> <span class="o">*=</span> <span class="mi">3</span>
+ <span class="k">else</span><span class="p">:</span>
+     <span class="n">c</span> <span class="o">-=</span> <span class="mi">4</span>
+</pre></div>
+</div>
+</div>
+<p>Moreover, this control structures allow the nested.</p>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">Nested with if and else control structure.</span><a class="headerlink" href="#id3" title="Link to this code"></a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span>
+     <span class="k">if</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="n">c</span><span class="p">:</span>
+         <span class="n">a</span> <span class="o">+=</span> <span class="mi">3</span>
+     <span class="k">else</span><span class="p">:</span>
+         <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
+ <span class="k">elif</span> <span class="n">a</span> <span class="o">==</span> <span class="n">b</span><span class="p">:</span>
+     <span class="n">b</span> <span class="o">*=</span> <span class="mi">3</span>
+ <span class="k">else</span><span class="p">:</span>
+     <span class="k">if</span> <span class="n">c</span> <span class="o">&gt;=</span> <span class="n">a</span><span class="p">:</span>
+         <span class="n">c</span> <span class="o">-=</span> <span class="mi">2</span>
+     <span class="k">elif</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="n">c</span><span class="p">:</span>
+         <span class="n">b</span> <span class="o">-=</span> <span class="mi">2</span>
+     <span class="k">else</span><span class="p">:</span>
+         <span class="n">c</span> <span class="o">*=</span> <span class="mi">5</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="repetition">
+<h2>Repetition<a class="headerlink" href="#repetition" title="Link to this heading"></a></h2>
+<p>There are two types of repetition control structures in Python. One run over array of elements, <em>foor loop</em>, while the another one finish when a specific condition is reached, <em>while loop</em>.</p>
+</section>
 </section>
 
 

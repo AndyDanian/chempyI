@@ -70,18 +70,20 @@ The compounds operators are another form to do binary operations, where the bina
    one = 3
    one %= 2
 
-The listes and tuples can be in binary operations. However, these structurales data only allow the concatenation (+) or replication (*).
+The listes, tuples and strings chains can be in binary operations. However, these structurales data only allow the concatenation (+) or replication (*).
 
 .. code-block:: python
    :caption: Binary operators over listes and tuples.
 
    # + examples
-   two_tuples = (2, 3) + (4, 5)   # = (2, 3, 4, 5)
-   two_tuples =  2, 3 + 4, 5      # = (2, 3, 4, 5)
-   two_list   =  [2, 3] + [4, 5]  # = [2, 3, 4, 5]
+   hello_world = "Hello" + " " + "World!"   # = "Hello World"
+   two_tuples = (2, 3) + (4, 5)             # = (2, 3, 4, 5)
+   two_tuples =  2, 3 + 4, 5                # = (2, 3, 4, 5)
+   two_list   =  [2, 3] + [4, 5]            # = [2, 3, 4, 5]
    # * examples
-   two_tuples = (2, 3) * 2   # = (2, 3, 2, 3)
-   two_list   =  [2, 3] * 2  # = [2, 3, 2, 3]
+   two_hello  = "Hello" * 2                 # = "HelloHello"
+   two_tuples = (2, 3) * 2                  # = (2, 3, 2, 3)
+   two_list   =  [2, 3] * 2                 # = [2, 3, 2, 3]
 
 Moreover, the binary operations satisfy the following ejecution order:
 

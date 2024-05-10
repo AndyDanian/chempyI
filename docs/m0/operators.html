@@ -146,16 +146,18 @@
 </pre></div>
 </div>
 </div>
-<p>The listes and tuples can be in binary operations. However, these structurales data only allow the concatenation (+) or replication (*).</p>
+<p>The listes, tuples and strings chains can be in binary operations. However, these structurales data only allow the concatenation (+) or replication (*).</p>
 <div class="literal-block-wrapper docutils container" id="id4">
 <div class="code-block-caption"><span class="caption-text">Binary operators over listes and tuples.</span><a class="headerlink" href="#id4" title="Link to this code"></a></div>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># + examples</span>
-<span class="n">two_tuples</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>   <span class="c1"># = (2, 3, 4, 5)</span>
-<span class="n">two_tuples</span> <span class="o">=</span>  <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span>      <span class="c1"># = (2, 3, 4, 5)</span>
-<span class="n">two_list</span>   <span class="o">=</span>  <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>  <span class="c1"># = [2, 3, 4, 5]</span>
+<span class="n">hello_world</span> <span class="o">=</span> <span class="s2">&quot;Hello&quot;</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="s2">&quot;World!&quot;</span>   <span class="c1"># = &quot;Hello World&quot;</span>
+<span class="n">two_tuples</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>             <span class="c1"># = (2, 3, 4, 5)</span>
+<span class="n">two_tuples</span> <span class="o">=</span>  <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span>                <span class="c1"># = (2, 3, 4, 5)</span>
+<span class="n">two_list</span>   <span class="o">=</span>  <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>            <span class="c1"># = [2, 3, 4, 5]</span>
 <span class="c1"># * examples</span>
-<span class="n">two_tuples</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>   <span class="c1"># = (2, 3, 2, 3)</span>
-<span class="n">two_list</span>   <span class="o">=</span>  <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>  <span class="c1"># = [2, 3, 2, 3]</span>
+<span class="n">two_hello</span>  <span class="o">=</span> <span class="s2">&quot;Hello&quot;</span> <span class="o">*</span> <span class="mi">2</span>                 <span class="c1"># = &quot;HelloHello&quot;</span>
+<span class="n">two_tuples</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>                  <span class="c1"># = (2, 3, 2, 3)</span>
+<span class="n">two_list</span>   <span class="o">=</span>  <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>                 <span class="c1"># = [2, 3, 2, 3]</span>
 </pre></div>
 </div>
 </div>
