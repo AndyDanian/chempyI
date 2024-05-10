@@ -21,6 +21,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Control Structures" href="control_structures.html" />
     <link rel="prev" title="Data Types" href="data_type.html" /> 
 </head>
 
@@ -49,6 +50,7 @@
 <li class="toctree-l2"><a class="reference internal" href="variables.html">Variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="data_type.html">Data Types</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control_structures.html">Control Structures</a></li>
 </ul>
 </li>
 </ul>
@@ -144,9 +146,22 @@
 </pre></div>
 </div>
 </div>
+<p>The listes and tuples can be in binary operations. However, these structurales data only allow the concatenation (+) or replication (*).</p>
+<div class="literal-block-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">Binary operators over listes and tuples.</span><a class="headerlink" href="#id4" title="Link to this code"></a></div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># + examples</span>
+<span class="n">two_tuples</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>   <span class="c1"># = (2, 3, 4, 5)</span>
+<span class="n">two_tuples</span> <span class="o">=</span>  <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span>      <span class="c1"># = (2, 3, 4, 5)</span>
+<span class="n">two_list</span>   <span class="o">=</span>  <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>  <span class="c1"># = [2, 3, 4, 5]</span>
+<span class="c1"># * examples</span>
+<span class="n">two_tuples</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>   <span class="c1"># = (2, 3, 2, 3)</span>
+<span class="n">two_list</span>   <span class="o">=</span>  <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>  <span class="c1"># = [2, 3, 2, 3]</span>
+</pre></div>
+</div>
+</div>
 <p>Moreover, the binary operations satisfy the following ejecution order:</p>
-<table class="docutils align-center" id="id4">
-<caption><span class="caption-text">Ejecution order of binary operators.</span><a class="headerlink" href="#id4" title="Link to this table"></a></caption>
+<table class="docutils align-center" id="id5">
+<caption><span class="caption-text">Ejecution order of binary operators.</span><a class="headerlink" href="#id5" title="Link to this table"></a></caption>
 <tbody>
 <tr class="row-odd"><td><p>Priority</p></td>
 <td><p>Operator</p></td>
@@ -178,6 +193,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="data_type.html" class="btn btn-neutral float-left" title="Data Types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="control_structures.html" class="btn btn-neutral float-right" title="Control Structures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
